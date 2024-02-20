@@ -10,6 +10,7 @@ Instructions for installation
 
 ```bash
 git clone https://github.com/tzshi/squall.git && \
+mkdir -p ~/partial_execution/data && \
 mv squall/data ~/partial_execution && \
 mv squall/tables ~/partial_execution/data && \
 rm -rf squall
