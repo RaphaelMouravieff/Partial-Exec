@@ -21,6 +21,10 @@ cd scripts
 python create_logicalforms.py --flatten_mode preorder
 ```
 
+```bash
+tar -xzvf models.tar.gz
+```
+
 # Entrainer votre propre modèle
 
 # finetuned_model.py
