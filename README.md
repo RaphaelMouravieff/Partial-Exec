@@ -1,13 +1,13 @@
 
 
-# Project Title
+# Partial Execution
 
 One Paragraph of project description goes here
 
-## Installation
+# Installation
 Instructions for installation
 
-
+Installation of Squall data.
 ```bash
 git clone https://github.com/tzshi/squall.git && \
 mkdir -p ~/partial_execution/data && \
@@ -16,21 +16,22 @@ mv squall/tables ~/partial_execution/data && \
 rm -rf squall
 ```
 
+Creating the logical form for the 'preorder' flattening method.
 ```bash
 cd scripts
 python create_logicalforms.py --flatten_mode preorder
 ```
-
+Pas encore dispo
 ```bash
 tar -xzvf models.tar.gz
 ```
 
-# Entrainer votre propre modèle
+# Train Your Own Model
 
-# finetuned_model.py
-permet d'évaluer un modèle pré-entrainé sur les données Question + table -> Omega_include et ainsi tester les performances sur wikitablequestions
+### finetuned_model.py
+This script evaluates a pre-trained model on the Question + Table -> Omega_include data, on the WikiTableQuestions dataset.
 
-Par exempl ici on veut évaluer le modèle avec entrainement intermédiaire tapex-base avec la méthode d'applatissement preorder et en exécutant seulement les noeuds Projections, Selection et Comparison (pcs). Ce fine-tuned est fait pour tourner sur un GPU, le batch size total doit être vers les 128. 
+For example, here we aim to evaluate the model using the intermediate training "tapex-base" with the "preorder" flattening method whyle executing only the Projection, Selection, and Comparison (PCS) nodes. This fine-tuning is designed to run on a GPU, with a total batch size of around 128.
 
 ```bash
 python finetune_model.py \
@@ -62,9 +63,8 @@ python finetune_model.py \
 
 
 
-# perf_model.py
-Permet de valider les données en test après avoir sélectionné le meilleur checkpoint en validation.
-
+### perf_model.py
+After fine-tuning, you can evaluate the model's performance on the test dataset with the following code. This process identifies the best checkpoint during validation and then applies this checkpoint to the test set for a comprehensive performance assessment.
 
 ```bash
 python perf_model.py \
@@ -73,8 +73,8 @@ python perf_model.py \
 ```
 
 
-# Tester le meilleur modèle : 
-
+# Test the Best Model
+Pas dispo encore
 ```bash
 python perf_model.py \
  --path_model_folder "tapex-large_pcs" \
@@ -82,4 +82,5 @@ python perf_model.py \
 ```
 
 
-# Tester les modèles ensembles : 
+# Test ensemble models
+Pas dispo encore
