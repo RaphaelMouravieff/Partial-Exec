@@ -37,6 +37,7 @@ tar -xzvf models.tar.gz
 ### Models
 
 ```bash
+wget --no-check-certificate 'https://drive.google.com/uc?export=download&id=1nWLc3ZTxU6yBF3t0WEpbHnRbEuPu90wj' -O model_pcs.tar.gz
 tar -xzvf models_pcs.tar.gz
 ```
 
