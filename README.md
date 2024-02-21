@@ -2,7 +2,13 @@
 
 # Partial Execution
 
-One Paragraph of project description goes here
+Table Question-Answering involves both understanding the natural language query and grounding it in the context of the input table to extract the relevant information. 
+In this context, many methods have highlighted the benefits of intermediate pre-training from SQL queries. 
+However, while most approaches aim at 
+generating final answers from inputs directly, 
+we claim that there is better to do with  SQL queries during training.
+By learning to imitate a restricted portion of SQL-like algebraic operations, we show that their execution flow provides intermediate supervision steps that allow increased generalization and structural reasoning compared with classical approaches of the field. 
+Our study bridges the gap between semantic parsing and direct answering methods and provides useful insights regarding what types of operations should be predicted by a generative architecture or be preferably executed by an external algorithm.
 
 # Installation
 Instructions for installation
