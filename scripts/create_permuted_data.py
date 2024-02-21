@@ -29,6 +29,8 @@ from data_processing.nodes import create_nodes
 from data_processing.utils import to_pandas, common_dataset
 
 
+np.random.seed(42)
+
 
 def get_squall_table(tbl):
     db_path = f"/home/raphael.gervillie/sql_graph/data/tables/db/{tbl}.db"
