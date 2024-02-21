@@ -100,7 +100,13 @@ cd scripts
 python create_permuted_data.py 
 ```
 
+Example of using the baseline file for Tapex with permuted data.
 
+
+
+```bash
+python analysis/baselines.py --model tapex --permuted 1
+```
 
 # Test ensemble models
 Pas dispo encore
