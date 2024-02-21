@@ -11,6 +11,9 @@ By learning to imitate a restricted portion of SQL-like algebraic operations, we
 Our study bridges the gap between semantic parsing and direct answering methods and provides useful insights regarding what types of operations should be predicted by a generative architecture or be preferably executed by an external algorithm.
 
 # Installation
+
+### Data
+
 Instructions for installation
 
 Installation of Squall data.
@@ -30,6 +33,11 @@ python create_logicalforms.py --flatten_mode preorder
 Pas encore dispo
 ```bash
 tar -xzvf models.tar.gz
+```
+### Models
+
+```bash
+tar -xzvf models_pcs.tar.gz
 ```
 
 # Train Your Own Model
