@@ -87,6 +87,20 @@ python perf_model.py \
  --flatten_mode "preorder"
 ```
 
+# Teste permuted performances
+
+
+Creating the datasets: non-permuted and permuted.
+This will create two datasets (HF) each of size 506. One will consist of 316 permuted tables, and the other will be the original from the official validation set.
+
+
+
+```bash
+cd scripts
+python create_permuted_data.py 
+```
+
+
 
 # Test ensemble models
 Pas dispo encore
