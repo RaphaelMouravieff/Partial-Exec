@@ -110,11 +110,13 @@ python analysis/baselines.py --model tapex --permuted 1
 
 ## Cite Us
 
-If you use this repository in your research, please cite us using the following format:
+If our work is useful for you, please consider citing our paper:
 
+```bash
 @article{mouravieff2024training,
   title={Training Table Question Answering via SQL Query Decomposition},
   author={Mouravieff, Rapha{\"e}l and Piwowarski, Benjamin and Lamprier, Sylvain},
   journal={arXiv preprint arXiv:2402.13288},
   year={2024}
 }
+```
