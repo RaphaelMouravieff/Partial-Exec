@@ -108,5 +108,13 @@ Example of using the baseline file for Tapex with permuted data.
 python analysis/baselines.py --model tapex --permuted 1
 ```
 
-# Test ensemble models
-Pas dispo encore
+## Cite Us
+
+If you use this repository in your research, please cite us using the following format:
+
+@article{mouravieff2024training,
+  title={Training Table Question Answering via SQL Query Decomposition},
+  author={Mouravieff, Rapha{\"e}l and Piwowarski, Benjamin and Lamprier, Sylvain},
+  journal={arXiv preprint arXiv:2402.13288},
+  year={2024}
+}
